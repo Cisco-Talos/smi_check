@@ -77,10 +77,11 @@ def main():
 
         try:
             tftp_conn.bind(('', 69))
-
         except socket.error as e:
             if e.errno == 13:
                 print('[ERROR] Invalid Permissions to bind on port 69. Please rerun as root.')
+            elif e.errno == 98:
+                print('[ERROR] Port 69 is already in use.')
             sys.exit()
 
         request_count = 0
@@ -90,7 +91,7 @@ def main():
             request_count += 1
             print("[INFO] Listening Attempt: {0}".format(request_count))
 
-            if request_count == 50:
+            if request_count >= args.retries:
                 break
             else:
 
