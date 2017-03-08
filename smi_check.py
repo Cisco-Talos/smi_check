@@ -99,7 +99,8 @@ def main():
                     buffer, (ret_ip, ret_port) = tftp_conn.recvfrom(65536)
 
                     if ret_ip:
-                        print('[INFO] Smart Install Client protocol found on {0}:{1}'.format(args.ip, args.port))
+                        print('[INFO] Connect back from {0}:{1}'.format(ret_ip, args.port))
+                        print('[INFO] Smart Install Client protocol found on {0}:{1}'.format(ret_ip, args.port))
                         break
 
                 except socket.error:
