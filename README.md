@@ -24,8 +24,11 @@ are running Cisco Smart Install.
 
 Reference
 ---------
+Cisco Talos Blog post: http://blog.talosintelligence.com/2017/02/cisco-coverage-for-smart-install-client.html
 
+Cisco PSIRT Blog post: https://blogs.cisco.com/security/cisco-psirt-mitigating-and-detecting-potential-abuse-of-cisco-smart-install-feature
 
+Cisco Security Response: Cisco Smart Install Protocol Misuse : https://tools.cisco.com/security/center/content/CiscoSecurityResponse/cisco-sr-20170214-smi
 
 
 PSIRT Notification
@@ -46,3 +49,7 @@ reference Cisco Smart Install Misuse.
 
 To receive non-emergency assistance or report suspected security-related
 issues with Cisco products, contact psirt@cisco.com.
+
+For additional information about Cisco PSIRT's process, please refer to 
+Cisco's Security Vulnerability Policy at:
+http://www.cisco.com/c/en/us/about/security-center/security-vulnerability-policy.html
