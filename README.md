@@ -1,7 +1,7 @@
 smi_check
 ============
 
-Scans devices and checks for the Cisco Smart Install client protocol.
+Scans devices and check for Cisco Smart Install client protocol.
 
 
 Installation
@@ -17,9 +17,8 @@ The tool works fine within a virtualenv as well.
 
 Usage
 -----
-The tool sends a crafted probe to your device and determines if you
-are running Cisco Smart Install, Consequently, it will require
-`root` permissions.
+the tool sends a crafted probe to your device and determines if you
+are running Cisco Smart Install.
 
 
 
